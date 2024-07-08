@@ -1,0 +1,16 @@
+.login-container{
+    position: absolute;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    width: 25%;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-family: Agency FB;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #1677ff;
+}

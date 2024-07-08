@@ -1,0 +1,18 @@
+.portfolioShareContent{
+    color: #1677ff;
+}
+.shareTitle {
+    display: flex;
+    gap: 20px;
+    
+    .symbol {
+        color: #1677ff;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    .price {
+        text-decoration: underline;
+        
+    }
+}

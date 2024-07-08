@@ -1,0 +1,12 @@
+.shareTitle {
+    .symbol {
+        color: #1677ff;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    .price {
+        text-decoration: underline;
+        
+    }
+}

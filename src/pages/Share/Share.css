@@ -1,0 +1,69 @@
+.shareContent {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(221, 234, 255);
+        border-radius: 10px 10px 0px 0px;
+        border-bottom: 1px solid blue;
+        .shareTitle {
+            font-weight: bolder;
+            font-size: 45px;
+            color:#1677ff;
+        }
+        .sharePrice {
+            font-weight: bolder;
+            font-size: 45px;
+        }
+    }
+    .graph {
+        height: 500px;
+    }
+    .footer {
+        background-color: rgb(221, 234, 255);
+        border-radius: 0px 0px 10px 10px;
+        border-top: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .quantityBar {
+            display: flex;
+            justify-content: space-between;
+            .quantity {
+                width: 80%;
+            }
+            .totalActionPrice {
+                font-size: 30px;
+                font-weight: bolder;
+                color: rgb(0, 110, 255);
+            }
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bolder;
+            .buyBtn {
+                height: 100px;
+                border-radius: 15px;
+                width: 49%;
+                display: flex;
+                text-align: center;
+                font-size: 37px;
+            }
+            .sellBtn {
+                font-size: 37px;
+                border-radius: 15px;
+                height: 100px;
+                width: 49%;
+                display: flex;
+                text-align: center;
+            }
+        }
+        .trades {
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            height: 400px;
+            overflow-y: auto;
+        }
+    }
+}

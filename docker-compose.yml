@@ -1,0 +1,12 @@
+version : "3"
+
+services:
+  nextjs:
+    container_name: "AppEva"
+    image: react
+    restart: always
+    environment:
+      NODE_ENV: docker
+    build: .
+    ports:
+      - "3000:3000"
